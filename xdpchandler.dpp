@@ -1,0 +1,191 @@
+xdpchandler.cpp.o: xdpchandler.cpp xdpchandler.h \
+ /usr/local/movella/include/movelladot_pc_sdk.h \
+ /usr/local/movella/include/movelladot_pc_sdk/dotsdkconfig.h \
+ /usr/local/movella/include/xscontroller/xscontrollerconfig.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotsdkinfo.h \
+ /usr/local/movella/include/movelladot_pc_sdk/dotsdkconfig.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h \
+ /usr/local/movella/include/xstypes/pstdint.h \
+ /usr/local/movella/include/xstypes/xsportinfo.h \
+ /usr/local/movella/include/xstypes/xstypesconfig.h \
+ /usr/local/movella/include/xstypes/xstypedefs.h \
+ /usr/local/movella/include/xstypes/pstdint.h \
+ /usr/local/movella/include/xstypes/xsdeviceid.h \
+ /usr/local/movella/include/xstypes/xsstring.h \
+ /usr/local/movella/include/xstypes/xsarray.h \
+ /usr/local/movella/include/xstypes/xshandid.h \
+ /usr/local/movella/include/xstypes/xstypesdef.h \
+ /usr/local/movella/include/xstypes/xsbaud.h \
+ /usr/local/movella/include/xstypes/xsbaudcode.h \
+ /usr/local/movella/include/xstypes/xsbaudrate.h \
+ /usr/local/movella/include/xstypes/xsdeviceidarray.h \
+ /usr/local/movella/include/xstypes/xsdatapacketptrarray.h \
+ /usr/local/movella/include/xstypes/xsdatapacket.h \
+ /usr/local/movella/include/xstypes/xsmessage.h \
+ /usr/local/movella/include/xstypes/xsbytearray.h \
+ /usr/local/movella/include/xstypes/xsdataidentifier.h \
+ /usr/local/movella/include/xstypes/xsdataidentifiervalue.h \
+ /usr/local/movella/include/xstypes/xsxbusmessageid.h \
+ /usr/local/movella/include/xstypes/xsresultvalue.h \
+ /usr/local/movella/include/xstypes/xsbusid.h \
+ /usr/local/movella/include/xstypes/xstimestamp.h \
+ /usr/local/movella/include/xstypes/xstimeinfo.h \
+ /usr/local/movella/include/xstypes/xsushortvector.h \
+ /usr/local/movella/include/xstypes/xsscrdata.h \
+ /usr/local/movella/include/xstypes/xscalibrateddata.h \
+ /usr/local/movella/include/xstypes/xsvector3.h \
+ /usr/local/movella/include/xstypes/xsvector.h \
+ /usr/local/movella/include/xstypes/xsmath.h \
+ /usr/local/movella/include/xstypes/xsfloatmath.h \
+ /usr/local/movella/include/xstypes/xsmath2.h \
+ /usr/local/movella/include/xstypes/xspressure.h \
+ /usr/local/movella/include/xstypes/xssdidata.h \
+ /usr/local/movella/include/xstypes/xsquaternion.h \
+ /usr/local/movella/include/xstypes/xsmatrix.h \
+ /usr/local/movella/include/xstypes/xseuler.h \
+ /usr/local/movella/include/xstypes/xsanalogindata.h \
+ /usr/local/movella/include/xstypes/xsrawgnsspvtdata.h \
+ /usr/local/movella/include/xstypes/xsrawgnsssatinfo.h \
+ /usr/local/movella/include/xstypes/xsrange.h \
+ /usr/local/movella/include/xstypes/xstriggerindicationdata.h \
+ /usr/local/movella/include/xstypes/xssnapshot.h \
+ /usr/local/movella/include/xstypes/xsglovesnapshot.h \
+ /usr/local/movella/include/xstypes/xsglovedata.h \
+ /usr/local/movella/include/xstypes/xsdatapacketptr.h \
+ /usr/local/movella/include/xstypes/xsresultvalue.h \
+ /usr/local/movella/include/xscontroller/xsdevicestate_enum.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotfirmwareupdateresult.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotdeviceptr.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotdeviceptrarray.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotdeviceptr.h \
+ /usr/local/movella/include/xstypes/xsarray.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotfirmwareupdateresult.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xspayloadmode.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xslogoptions.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsrecordingacknowledgeresult.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsrecordingexportdatafield.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsrecordinginfo.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsrecordingtimeinfo.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xssyncacknowledgeresult.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotdevice.h \
+ /usr/local/movella/include/xstypes/xsstringarray.h \
+ /usr/local/movella/include/xstypes/xsintarray.h \
+ /usr/local/movella/include/xstypes/xsversion.h \
+ /usr/local/movella/include/xstypes/xssimpleversion.h \
+ /usr/local/movella/include/xstypes/xsfilterprofile.h \
+ /usr/local/movella/include/xstypes/xsfilterprofilekind.h \
+ /usr/local/movella/include/xstypes/xsfilterprofilearray.h \
+ /usr/local/movella/include/xstypes/xsfilterprofile.h \
+ /usr/local/movella/include/xstypes/xsexception.h \
+ /usr/local/movella/include/xstypes/xsresetmethod.h \
+ /usr/local/movella/include/xscontroller/xserrormode.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xspayloadmode.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsrecordingacknowledgeresult.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xslogoptions.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotusbdevice.h \
+ /usr/local/movella/include/movelladot_pc_sdk/xsdotconnectionmanager.h \
+ /usr/local/movella/include/xstypes/xsportinfoarray.h \
+ /usr/local/movella/include/xstypes/xsportinfo.h \
+ /usr/local/movella/include/xscommon/xsens_mutex.h \
+ /usr/local/movella/include/xstypes/xsthread.h \
+ /usr/local/movella/include/xstypes/xstime.h \
+ /usr/local/movella/include/xstypes/xstimestamp.h user_settings.h conio.h
+xdpchandler.cpp:
+xdpchandler.h:
+/usr/local/movella/include/movelladot_pc_sdk.h:
+/usr/local/movella/include/movelladot_pc_sdk/dotsdkconfig.h:
+/usr/local/movella/include/xscontroller/xscontrollerconfig.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotsdkinfo.h:
+/usr/local/movella/include/movelladot_pc_sdk/dotsdkconfig.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:
+/usr/local/movella/include/xstypes/pstdint.h:
+/usr/local/movella/include/xstypes/xsportinfo.h:
+/usr/local/movella/include/xstypes/xstypesconfig.h:
+/usr/local/movella/include/xstypes/xstypedefs.h:
+/usr/local/movella/include/xstypes/pstdint.h:
+/usr/local/movella/include/xstypes/xsdeviceid.h:
+/usr/local/movella/include/xstypes/xsstring.h:
+/usr/local/movella/include/xstypes/xsarray.h:
+/usr/local/movella/include/xstypes/xshandid.h:
+/usr/local/movella/include/xstypes/xstypesdef.h:
+/usr/local/movella/include/xstypes/xsbaud.h:
+/usr/local/movella/include/xstypes/xsbaudcode.h:
+/usr/local/movella/include/xstypes/xsbaudrate.h:
+/usr/local/movella/include/xstypes/xsdeviceidarray.h:
+/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:
+/usr/local/movella/include/xstypes/xsdatapacket.h:
+/usr/local/movella/include/xstypes/xsmessage.h:
+/usr/local/movella/include/xstypes/xsbytearray.h:
+/usr/local/movella/include/xstypes/xsdataidentifier.h:
+/usr/local/movella/include/xstypes/xsdataidentifiervalue.h:
+/usr/local/movella/include/xstypes/xsxbusmessageid.h:
+/usr/local/movella/include/xstypes/xsresultvalue.h:
+/usr/local/movella/include/xstypes/xsbusid.h:
+/usr/local/movella/include/xstypes/xstimestamp.h:
+/usr/local/movella/include/xstypes/xstimeinfo.h:
+/usr/local/movella/include/xstypes/xsushortvector.h:
+/usr/local/movella/include/xstypes/xsscrdata.h:
+/usr/local/movella/include/xstypes/xscalibrateddata.h:
+/usr/local/movella/include/xstypes/xsvector3.h:
+/usr/local/movella/include/xstypes/xsvector.h:
+/usr/local/movella/include/xstypes/xsmath.h:
+/usr/local/movella/include/xstypes/xsfloatmath.h:
+/usr/local/movella/include/xstypes/xsmath2.h:
+/usr/local/movella/include/xstypes/xspressure.h:
+/usr/local/movella/include/xstypes/xssdidata.h:
+/usr/local/movella/include/xstypes/xsquaternion.h:
+/usr/local/movella/include/xstypes/xsmatrix.h:
+/usr/local/movella/include/xstypes/xseuler.h:
+/usr/local/movella/include/xstypes/xsanalogindata.h:
+/usr/local/movella/include/xstypes/xsrawgnsspvtdata.h:
+/usr/local/movella/include/xstypes/xsrawgnsssatinfo.h:
+/usr/local/movella/include/xstypes/xsrange.h:
+/usr/local/movella/include/xstypes/xstriggerindicationdata.h:
+/usr/local/movella/include/xstypes/xssnapshot.h:
+/usr/local/movella/include/xstypes/xsglovesnapshot.h:
+/usr/local/movella/include/xstypes/xsglovedata.h:
+/usr/local/movella/include/xstypes/xsdatapacketptr.h:
+/usr/local/movella/include/xstypes/xsresultvalue.h:
+/usr/local/movella/include/xscontroller/xsdevicestate_enum.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotfirmwareupdateresult.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotdeviceptr.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotdeviceptrarray.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotdeviceptr.h:
+/usr/local/movella/include/xstypes/xsarray.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotfirmwareupdateresult.h:
+/usr/local/movella/include/movelladot_pc_sdk/xspayloadmode.h:
+/usr/local/movella/include/movelladot_pc_sdk/xslogoptions.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsrecordingacknowledgeresult.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsrecordingexportdatafield.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsrecordinginfo.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsrecordingtimeinfo.h:
+/usr/local/movella/include/movelladot_pc_sdk/xssyncacknowledgeresult.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotdevice.h:
+/usr/local/movella/include/xstypes/xsstringarray.h:
+/usr/local/movella/include/xstypes/xsintarray.h:
+/usr/local/movella/include/xstypes/xsversion.h:
+/usr/local/movella/include/xstypes/xssimpleversion.h:
+/usr/local/movella/include/xstypes/xsfilterprofile.h:
+/usr/local/movella/include/xstypes/xsfilterprofilekind.h:
+/usr/local/movella/include/xstypes/xsfilterprofilearray.h:
+/usr/local/movella/include/xstypes/xsfilterprofile.h:
+/usr/local/movella/include/xstypes/xsexception.h:
+/usr/local/movella/include/xstypes/xsresetmethod.h:
+/usr/local/movella/include/xscontroller/xserrormode.h:
+/usr/local/movella/include/movelladot_pc_sdk/xspayloadmode.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsrecordingacknowledgeresult.h:
+/usr/local/movella/include/movelladot_pc_sdk/xslogoptions.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotusbdevice.h:
+/usr/local/movella/include/movelladot_pc_sdk/xsdotconnectionmanager.h:
+/usr/local/movella/include/xstypes/xsportinfoarray.h:
+/usr/local/movella/include/xstypes/xsportinfo.h:
+/usr/local/movella/include/xscommon/xsens_mutex.h:
+/usr/local/movella/include/xstypes/xsthread.h:
+/usr/local/movella/include/xstypes/xstime.h:
+/usr/local/movella/include/xstypes/xstimestamp.h:
+user_settings.h:
+conio.h:
